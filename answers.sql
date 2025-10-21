@@ -1,3 +1,4 @@
+USE sales_db;
 -- 1️⃣ Create a table named 'student' with id, fullName, and age columns
 CREATE TABLE student (
     id INT PRIMARY KEY,
@@ -14,4 +15,5 @@ INSERT INTO student (id, fullName, age) VALUES
 -- 3️⃣ Update the age of the student with ID = 2 to 20
 UPDATE student
 SET age = 20
+
 WHERE id = 2;
